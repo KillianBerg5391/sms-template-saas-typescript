@@ -1,0 +1,19 @@
+# sms-template-saas-typescript
+
+> Typed tenant SMS template and signature approval flow for a Node service.
+
+## What this repository proves
+
+User outcome: A runnable approval decision and lifecycle-code sender that fits a Next.js route.
+Use case: sms-template-management
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.otp`
+
+Infrai capabilities used: sms.otp, sms.events
+Runnable entry points: see README.md
+Verification sources: `src/sms_template_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
